@@ -18,23 +18,44 @@ body {
   background-color: rgb(255, 229, 145);
   width: 70vw;
   height: 90vh;
+  border-radius: 0.6rem;
 }
 
-.search-box {
-  background-color: blue;
+nav.search-box {
+  /* background-color: blue; */
   height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+input.search-box {
+  height: 50%;
+  width: 100%;
+  border-radius: 10rem;
+  border: 0.1rem solid rgb(129, 129, 129);
+  padding: 0 5%;
+  margin: 0 20%;
+  font-size: larger;
+}
+
+.fa-search {
+  position: absolute;
+  left: 76%;
 }
 
 .weather-info {
-  background-color: red;
-  margin: 2rem;
-  height: 67%;
+  /* background-color: red; */
+  margin: 0 2rem;
+  height: 70%;
   display: flex;
+  /* justify-content: space-between; */
+  /* flex-direction: row; */
 }
 
 .essentials {
   background-color: green;
-  flex-direction: row;
   width: 40%;
 }
 
@@ -62,4 +83,17 @@ body {
 .weather .description {
   background-color: crimson;
   width: 60%;
+}
+
+.additional {
+  background-color: rgb(0, 247, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 60%;
+}
+
+.item {
+  background-color: chocolate;
+  flex-basis: 10%;
 }
