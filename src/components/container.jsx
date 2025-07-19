@@ -1,19 +1,12 @@
+import { WeatherInfo } from './weatherInfo';
 export function Container({}) {
   return (
     <div className="container">
-      <nav className="search-box">search box</nav>
-      <article className="weather-info">
-        <section className="essentials">
-          <div className="temperature">temp</div>
-          <div className="feels-like">feels like</div>
-          <div className="weather">
-            <div className="icon">icon</div>
-            <div className="description">desc</div>
-          </div>
-          <div className="icon">big icon</div>
-        </section>
-        <section className="additional"></section>
-      </article>
+      <nav className="search-box">
+        <i className="fas fa-search"></i>
+        <input className="search-box" type="text" value={'search'}></input>
+      </nav>
+      <WeatherInfo />
     </div>
   );
 }
