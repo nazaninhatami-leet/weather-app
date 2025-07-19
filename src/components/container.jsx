@@ -1,7 +1,7 @@
 export function Container({}) {
   return (
     <div className="container">
-      <nav>search box</nav>
+      <nav className="search-box">search box</nav>
       <article className="weather-info">
         <section className="essentials">
           <div className="temperature">temp</div>
