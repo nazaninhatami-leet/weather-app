@@ -1,0 +1,45 @@
+{
+  "coord": {
+    "lon": 50.0049,
+    "lat": 36.2797
+  },
+  "weather": [
+    {
+      "id": 802,
+      "main": "Clouds",
+      "description": "scattered clouds",
+      "icon": "03d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 96.42,
+    "feels_like": 93.09,
+    "temp_min": 96.42,
+    "temp_max": 96.42,
+    "pressure": 1007,
+    "humidity": 20,
+    "sea_level": 1007,
+    "grnd_level": 861
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 6.91,
+    "deg": 210
+  },
+  "clouds": {
+    "all": 40
+  },
+  "dt": 1752834432,
+  "sys": {
+    "type": 1,
+    "id": 7465,
+    "country": "IR",
+    "sunrise": 1752802552,
+    "sunset": 1752854168
+  },
+  "timezone": 12600,
+  "id": 119505,
+  "name": "Qazvin",
+  "cod": 200
+}
