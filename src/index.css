@@ -1,0 +1,16 @@
+.vazirmatn-bold {
+  font-family: 'Vazirmatn', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.container {
+  background-color: rgb(255, 248, 224);
+}
