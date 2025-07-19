@@ -8,9 +8,58 @@
 body {
   margin: 0;
   padding: 0;
+  direction: rtl;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
-  background-color: rgb(255, 248, 224);
+  background-color: rgb(255, 229, 145);
+  width: 70vw;
+  height: 90vh;
+}
+
+.search-box {
+  background-color: blue;
+  height: 20%;
+}
+
+.weather-info {
+  background-color: red;
+  margin: 2rem;
+  height: 67%;
+  display: flex;
+}
+
+.essentials {
+  background-color: green;
+  flex-direction: row;
+  width: 40%;
+}
+
+.temperature {
+  background-color: palevioletred;
+  height: 20%;
+}
+
+.feels-like {
+  background-color: aquamarine;
+  height: 20%;
+}
+
+.weather {
+  background-color: yellow;
+  height: 20%;
+  display: flex;
+}
+
+.weather .icon {
+  background-color: brown;
+  width: 40%;
+}
+
+.weather .description {
+  background-color: crimson;
+  width: 60%;
 }
