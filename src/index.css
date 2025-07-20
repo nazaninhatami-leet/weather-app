@@ -1,9 +1,9 @@
-.vazirmatn-bold {
+/* .vazirmatn-bold {
   font-family: 'Vazirmatn', sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-}
+} */
 
 #root {
   max-width: 1280px;
@@ -15,10 +15,11 @@
 body {
   margin: 0;
   padding: 0;
-  direction: rtl;
+  /* direction: rtl; */
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Inter', sans-serif;
 }
 
 .container {
@@ -42,7 +43,7 @@ input.search-box {
   height: 50%;
   width: 100%;
   border-radius: 10rem;
-  border: 0.15rem solid rgb(129, 129, 129);
+  border: 0.15rem solid rgb(120, 120, 120);
   padding: 0 4%;
   margin: 0 20%;
   font-size: larger;
@@ -51,7 +52,8 @@ input.search-box {
 
 .fa-search {
   position: absolute;
-  left: 24%;
+  left: 74%;
+  color: rgb(61, 61, 61);
 }
 
 .weather-info {
@@ -74,8 +76,7 @@ input.search-box {
   height: 20%;
   display: flex;
   align-items: center;
-  justify-content: right;
-  padding: 0 20% 0 0;
+  padding: 0  0 0 20%;
 }
 
 .feels-like {
@@ -83,8 +84,7 @@ input.search-box {
   height: 20%;
   display: flex;
   align-items: center;
-  justify-content: right;
-  padding: 0 20% 0 0;
+  padding: 0  0 0 20%;
 }
 
 .weather {
