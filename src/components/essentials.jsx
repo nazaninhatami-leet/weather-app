@@ -5,27 +5,19 @@ export function Essentials() {
   const { data } = useContext(appContext);
   return (
     <section className="essentials">
-      <article className="temperature">
+      <article className="detail temperature">
         temperature : {data?.main?.temp}
       </article>
-      <article className="feels-like">
+      <article className="detail feels-like">
         feels like : {data?.main?.feels_like}
       </article>
-      <article className="weather">
-        <div className="icon">
-          <img
-            src={`http://openweathermap.org/img/w/${data?.weather[0]?.icon}.png`}
-          />
-        </div>
-        <div className="description">{data?.weather[0]?.description}</div>
-      </article>
-      <article className="big-icon">
-        {/* <img
+      <article className="detail weather">
+        <img
           src={`http://openweathermap.org/img/w/${data?.weather[0]?.icon}.png`}
-          style={{width:'30%'}}
-        /> */}
-        big icon
+        />
+        {data?.weather[0]?.description}
       </article>
+      <article className="detail big-icon">{data?.name}</article>
     </section>
   );
 }
