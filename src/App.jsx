@@ -32,11 +32,11 @@ function App() {
   };
 
   return (
-    <appContext.Provider
-      value={{ data, location, url, searchBoxChange, searchPressEnter }}
-    >
-      <Container />
-    </appContext.Provider>
+      <appContext.Provider
+        value={{ data, location, url, searchBoxChange, searchPressEnter }}
+      >
+        <Container />
+      </appContext.Provider>
   );
 }
 
