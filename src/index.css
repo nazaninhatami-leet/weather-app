@@ -36,6 +36,7 @@ body {
   height: 90vh;
   border-radius: 0.6rem;
   box-shadow: 0rem 1rem 4rem rgba(0, 0, 0, 0.5);
+  padding: 2rem;
 }
 
 nav.search-box {
@@ -136,7 +137,7 @@ div.weather {
 }
 
 .weather img {
-  margin: 0 2% 0 0;
+  /* margin: 0 2% 0 0; */
   /* width: 1.8rem; */
 }
 
@@ -169,6 +170,6 @@ div.weather {
   /* justify-content: center; */
   align-items: center;
   padding: 0 3rem;
-  border-radius: 0.2rem;
+  border-radius: 1rem;
   border: 0.1rem solid rgb(143, 143, 143);
 }
