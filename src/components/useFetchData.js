@@ -12,9 +12,9 @@ const useFetchData = () => {
     });
   };
 
-  useEffect(() => {
-    fetchData();
-  }, []);
+  // useEffect(() => {
+  //   fetchData();
+  // }, []);
 
   const searchBoxChange = (e) => {
     setLocation(e.target.value);

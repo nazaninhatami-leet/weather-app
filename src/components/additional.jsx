@@ -3,7 +3,7 @@ import { appContext } from '../App';
 
 export function Additional({}) {
   const { data } = useContext(appContext);
-  console.log(data);
+  console.log('from additional'+data);
   return (
     <section className="additional">
       <li className="item humidity">humidity: {data?.main?.humidity}</li>
