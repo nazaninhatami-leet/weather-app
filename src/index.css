@@ -33,10 +33,10 @@ body {
 .container {
   background-color: rgba(255, 255, 255, 0.4);
   width: 70vw;
-  height: 90vh;
+  height: 100vh;
   border-radius: 0.6rem;
   box-shadow: 0rem 1rem 4rem rgba(0, 0, 0, 0.5);
-  padding: 2rem;
+  padding-bottom: 2rem;
 }
 
 nav.search-box {
@@ -77,9 +77,9 @@ input.search-box {
   font-size: large;
 }
 
-.essentials {
+.mainInfo {
   background-color: rgba(232, 255, 238, 0.5);
-  width: 55%;
+  width: 47%;
   padding: 2rem 1rem;
   border-radius: 0.4rem;
   margin: 1rem;
@@ -97,6 +97,16 @@ input.search-box {
   justify-content: center;
   border-radius: 1rem;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+}
+
+.city {
+  background-color: rgba(0, 0, 255, 0.3);
+  height: 40%;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* border-radius: 1rem; */
+  font: xxx-large bold;
 }
 
 .temperature {
@@ -141,22 +151,12 @@ div.weather {
   /* width: 1.8rem; */
 }
 
-.city {
-  background-color: rgba(0, 0, 255, 0.3);
-  height: 40%;
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* border-radius: 1rem; */
-  font: xxx-large bold;
-}
-
-.additional {
+.extraInfo {
   background-color: rgba(236, 158, 255, 0.2);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 45%;
+  width: 53%;
   padding: 1.4rem 0.8rem;
   border-radius: 0.4rem;
   margin: 1rem;
@@ -169,7 +169,9 @@ div.weather {
   flex-basis: 10%;
   /* justify-content: center; */
   align-items: center;
-  padding: 0 3rem;
+  padding: 0 1rem;
   border-radius: 1rem;
   border: 0.1rem solid rgb(143, 143, 143);
+  justify-content: space-between;
 }
+
