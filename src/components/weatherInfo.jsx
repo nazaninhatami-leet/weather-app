@@ -1,10 +1,10 @@
-import { MainInfo } from './mainInfo';
-import { ExtraInfo } from './extraInfo';
+import { MainInfos } from './mainInfos';
+import { ExtraInfos } from './extraInfos';
 export function WeatherInfo({}) {
   return (
     <article className="weather-info">
-      <MainInfo />
-      <ExtraInfo />
+      <MainInfos />
+      <ExtraInfos />
     </article>
   );
 }
