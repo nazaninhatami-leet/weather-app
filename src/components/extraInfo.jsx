@@ -1,8 +1,13 @@
 const Extra = (data) => {
-  const { id, label, code, unit } = data;
+  let { id, label, code, unit } = data;
   console.log(code);
+  if (unit === 'm' && code >= 1000) {
+    code = code / 1000;
+    unit = 'km';
+  }
+
   return (
-    <li className="item humidity" key={id}>
+    <li className="item" key={id}>
       <span>{label}:</span>
       {code !== undefined ? (
         <span>
