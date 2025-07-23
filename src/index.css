@@ -183,7 +183,7 @@ div.weather {
 
 @media (max-width: 930px) {
   .container {
-    height: 70rem;
+    height: 180vh;
   }
 
   input.search-box {
@@ -195,7 +195,7 @@ div.weather {
   }
 
   .weather-info {
-    background-color: red;
+    /* background-color: red; */
     flex-direction: column;
   }
 
@@ -210,14 +210,18 @@ div.weather {
 
   .extraInfo {
     width: auto;
-    height: 100%;
-    gap: 1rem;
+    height: auto;
+    gap: 0.8rem;
+  }
+
+  .item {
+    padding: 1rem;
   }
 }
 
 @media (max-width: 740px) {
-  .weather-info {
-    background-color: green;
+  .container {
+    height: 168vh;
   }
 
   input.search-box {
@@ -229,10 +233,64 @@ div.weather {
   }
 
   .mainInfo {
-    height: 60rem;
+    height: 90rem;
   }
 
   .item {
     padding: 0.6rem 0.8rem;
+  }
+}
+
+@media (max-width: 530px) {
+  input.search-box {
+    padding: 0 13%;
+  }
+
+  .fa-search {
+    left: 26%;
+  }
+}
+
+@media (max-width: 490px) {
+  .container {
+    padding: 0 1rem 2rem 1rem;
+    /* height: 160vh; */
+  }
+
+  nav.search-box {
+    height: 7rem;
+  }
+}
+
+@media (max-width: 490px) {
+  .container {
+    padding: 0;
+    height: 160vh;
+  }
+}
+
+@media (max-width: 380px) {
+  .container {
+    height: 170vh;
+  }
+
+  .mainInfo {
+    font-size: smaller;
+  }
+
+  .extraInfo {
+    font-size: smaller;
+  }
+}
+
+@media (max-width: 380px) {
+  .mainInfo {
+    padding: 0.6rem;
+    font-size: small;
+  }
+
+  .extraInfo {
+    padding: 0.6rem;
+    font-size: small;
   }
 }
