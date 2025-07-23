@@ -33,12 +33,12 @@ body {
 
 .container {
   background-color: rgba(255, 255, 255, 0.4);
-  width: 70vw;
-  height: 100vh;
+  width: 80vw;
+  height: 110vh;
   border-radius: 0.6rem;
   box-shadow: 0rem 1rem 4rem rgba(0, 0, 0, 0.5);
-  padding-bottom: 2rem;
-  text-transform: capitalize;
+  padding: 0 3rem 4rem 3rem;
+  /* text-transform: capitalize; */
 }
 
 nav.search-box {
@@ -56,7 +56,7 @@ input.search-box {
   width: 60%;
   border-radius: 10rem;
   border: 0.15rem solid rgb(120, 120, 120);
-  padding: 0 4%;
+  padding: 0 6%;
   /* margin: 0 20%; */
   font-size: larger;
   color: rgb(61, 61, 61);
@@ -65,8 +65,8 @@ input.search-box {
 
 .fa-search {
   position: absolute;
-  left: 74%;
-  color: rgb(61, 61, 61);
+  left: 23%;
+  color: rgb(112, 112, 112);
 }
 
 .weather-info {
@@ -90,6 +90,7 @@ input.search-box {
   flex-direction: column;
   /* justify-content: space-around; */
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  text-transform: capitalize;
 }
 
 .detail {
@@ -171,7 +172,7 @@ div.weather {
   flex-basis: 10%;
   /* justify-content: center; */
   align-items: center;
-  padding: 0 1rem;
+  padding: 0 2rem;
   border-radius: 1rem;
   border: 0.1rem solid rgb(143, 143, 143);
   justify-content: space-between;
