@@ -7,6 +7,7 @@
 
 * {
   box-sizing: border-box;
+  /* text-transform: capitalize; */
 }
 
 #root {
@@ -37,6 +38,7 @@ body {
   border-radius: 0.6rem;
   box-shadow: 0rem 1rem 4rem rgba(0, 0, 0, 0.5);
   padding-bottom: 2rem;
+  text-transform: capitalize;
 }
 
 nav.search-box {
@@ -174,4 +176,3 @@ div.weather {
   border: 0.1rem solid rgb(143, 143, 143);
   justify-content: space-between;
 }
-
