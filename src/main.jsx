@@ -1,8 +1,8 @@
 // import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import './index.css';
+// import './index.css';
 import App from './App.jsx';
-// import WeatherSearchBox from './components/test.js';
+import './app.css';
 
 createRoot(document.getElementById('root')).render(
   // <StrictMode>
