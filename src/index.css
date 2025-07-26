@@ -1,64 +1,71 @@
-/* .vazirmatn-bold {
-  font-family: 'Vazirmatn', sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-} */
-
 * {
   box-sizing: border-box;
-  /* text-transform: capitalize; */
 }
 
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 
 body {
   margin: 0;
   padding: 0;
-  /* direction: rtl; */
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: 'Inter', sans-serif;
-  background-color: rgba(0, 0, 0, 0.5);
-  /* background-image: url('./assets/bts-5k-k-pop-amoled-5120x2880-12599.png'); */
-  /* background-size: cover; */
-  /* background-position: center; */
+  background-image: url('./assets/2580.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
 }
 
 .container {
-  background-color: rgba(255, 255, 255, 0.4);
-  width: 80vw;
-  height: 110vh;
-  border-radius: 0.6rem;
-  box-shadow: 0rem 1rem 4rem rgba(0, 0, 0, 0.5);
-  padding: 0 3rem 4rem 3rem;
-  margin: auto;
-  /* text-transform: capitalize; */
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contain {
+  box-shadow: 0 0 2vw rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.02);
+  height: 90vh;
+  width: 90vw;
+  border-radius: 1vw;
+  display: flex;
+}
+
+.pt1 {
+  background-color: red;
+  width: 50%;
+}
+
+.pt2 {
+  background-color: green;
+  width: 50%;
 }
 
 nav.search-box {
-  /* background-color: blue; */
-  height: 10rem;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   color: rgb(61, 61, 61);
+  width: fit-content;
 }
 
 input.search-box {
   height: 4rem;
-  width: 60%;
-  border-radius: 10rem;
+  width: 30vw;
+  border-radius: 2rem;
   border: 0.15rem solid rgb(120, 120, 120);
-  padding: 0 7%;
-  /* margin: 0 20%; */
+  padding: 0 5%;
   font-size: larger;
   color: rgb(61, 61, 61);
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
@@ -66,7 +73,7 @@ input.search-box {
 
 .fa-search {
   position: absolute;
-  left: 23%;
+  left: 37%;
   color: rgb(112, 112, 112);
 }
 
