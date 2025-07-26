@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const useFetchData = () => {
   const [data, setData] = useState();
-  const [location, setLocation] = useState('');
+  const [location, setLocation] = useState('seoul');
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=imperial&appid=895284fb2d2c50a520ea537456963d9c`;
 
   const fetchData = async () => {
@@ -12,9 +12,9 @@ const useFetchData = () => {
     });
   };
 
-  // useEffect(() => {
-  //   fetchData();
-  // }, []);
+  useEffect(() => {
+    fetchData();
+  }, []);
 
   const searchBoxChange = (e) => {
     setLocation(e.target.value);
