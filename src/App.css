@@ -48,7 +48,7 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  padding: 5rem 0 1rem 0;
+  padding: 5rem 0 2rem 0;
 }
 
 nav.search-box {
@@ -81,7 +81,7 @@ input.search-box {
 }
 
 .main {
-  height: 30%;
+  height: 40%;
   /* background-color: yellow; */
   /* padding: 1rem 5rem; */
   width: 30vw;
@@ -101,7 +101,7 @@ input.search-box {
 span.temp {
   /* background-color: violet; */
   color: white;
-  font-size: 5rem;
+  font-size: 6rem;
   font-weight: 600;
 }
 
@@ -116,9 +116,15 @@ span.icon {
   text-align: start;
 }
 
+.time {
+  display: flex;
+  justify-content: left;
+  margin: 0.2rem;
+}
+
 .pt2 {
   /* background-color: red; */
-  width: 60%;
+  width: 50%;
   list-style-type: none;
   padding: 3rem 5rem;
 }
@@ -140,3 +146,4 @@ span.icon {
   justify-content: space-between;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
+
