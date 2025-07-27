@@ -6,11 +6,18 @@ import useFetchData from './components/useFetchData';
 export const appContext = createContext();
 
 function App() {
-  const { data, location, searchBoxChange, searchPressEnter } = useFetchData();
+  const { data, searchIconClick, location, searchBoxChange, searchPressEnter } =
+    useFetchData();
 
   return (
     <appContext.Provider
-      value={{ data, location, searchBoxChange, searchPressEnter }}
+      value={{
+        data,
+        searchIconClick,
+        location,
+        searchBoxChange,
+        searchPressEnter,
+      }}
     >
       <Container />
     </appContext.Provider>
