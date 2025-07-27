@@ -1,7 +1,7 @@
 import { SearchBox } from './searchBox';
-import { WeatherInfo } from './weatherInfo';
 import { Temperature } from './temperature';
 import { City } from './city';
+import { ExtraInfos } from './extraInfos';
 
 export function Container({}) {
   return (
@@ -14,7 +14,9 @@ export function Container({}) {
             <City />
           </section>
         </aside>
-        <aside className="pt2">{/* <WeatherInfo /> */}</aside>
+        <aside className="pt2">
+          <ExtraInfos />
+        </aside>
       </div>
     </div>
   );

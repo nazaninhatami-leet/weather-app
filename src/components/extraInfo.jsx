@@ -7,17 +7,19 @@ const Extra = (data) => {
   }
 
   return (
-    <li className="item" key={id}>
-      <span>{label}:</span>
-      {code !== undefined ? (
-        <span>
-          {code}
-          {unit}
-        </span>
-      ) : (
-        '......'
-      )}
-    </li>
+    <>
+      <li className="item" key={id}>
+        <span>{label}:</span>
+        {code !== undefined ? (
+          <span>
+            {code}
+            {unit}
+          </span>
+        ) : (
+          <span>......</span>
+        )}
+      </li>
+    </>
   );
 };
 export default Extra;

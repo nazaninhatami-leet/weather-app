@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import { appContext } from '../App';
-import Extra from './extraInfo';
+import ExtraInfo from './extraInfo';
 
 export function ExtraInfos() {
   const { data } = useContext(appContext);
@@ -20,7 +20,7 @@ export function ExtraInfos() {
   return (
     <section className="extraInfo">
       {infos.map((info) => (
-        <Extra key={info.id} {...info} />
+        <ExtraInfo key={info.id} {...info} />
       ))}
     </section>
   );
