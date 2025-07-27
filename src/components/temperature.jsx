@@ -7,8 +7,10 @@ export const Temperature = () => {
 
   return (
     <article className="detail temperature">
-      <span className='temp'>{data ? <span>{data?.main?.temp}°F</span> : null}</span>
-      <span className='icon'>
+      <span className="temp" title='temperature'>
+        {data ? <span>{Math.round(data?.main?.temp)}°F</span> : null}
+      </span>
+      <span className="icon">
         <Icon />
       </span>
     </article>

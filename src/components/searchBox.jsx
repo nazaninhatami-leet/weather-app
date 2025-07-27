@@ -2,11 +2,15 @@ import { useContext } from 'react';
 import { appContext } from '../App';
 
 export function SearchBox({}) {
-  const { location, searchBoxChange, searchPressEnter } =
+  const { searchIconClick, location, searchBoxChange, searchPressEnter } =
     useContext(appContext);
   return (
     <nav className="search-box">
-      <i className="fas fa-search"></i>
+      <i
+        className="fas fa-search"
+        onClick={() => searchIconClick(location)}
+        title='search'
+      ></i>
       <input
         className="search-box"
         type="text"

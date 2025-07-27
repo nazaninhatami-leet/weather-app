@@ -13,7 +13,7 @@ export function Container({}) {
           <section className="main">
             <Temperature />
             <City />
-            <Time />
+            {/* <Time /> */}
           </section>
         </aside>
         <aside className="pt2">

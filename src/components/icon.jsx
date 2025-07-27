@@ -10,6 +10,7 @@ export const Icon = () => {
         <img
           className="icon"
           src={`http://openweathermap.org/img/w/${data?.weather[0]?.icon}.png`}
+          title=""
         />
       ) : null}
     </article>

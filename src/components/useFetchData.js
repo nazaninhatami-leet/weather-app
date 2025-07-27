@@ -18,6 +18,10 @@ const useFetchData = () => {
   //   );
   // }, []);
 
+  const searchIconClick = (location) => {
+    if (location) fetchData(url);
+  };
+
   const searchBoxChange = (e) => {
     setLocation(e.target.value);
   };
@@ -28,6 +32,6 @@ const useFetchData = () => {
     }
   };
 
-  return { data, location, searchBoxChange, searchPressEnter };
+  return { data, searchIconClick, location, searchBoxChange, searchPressEnter };
 };
 export default useFetchData;
