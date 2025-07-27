@@ -19,7 +19,9 @@ const useFetchData = () => {
   // }, []);
 
   const searchIconClick = (location) => {
-    if (location) fetchData(url);
+    if (location) {
+      fetchData(url);
+    }
   };
 
   const searchBoxChange = (e) => {
