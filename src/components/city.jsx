@@ -6,7 +6,7 @@ export const City = () => {
 
   return (
     <article className="detail city">
-      <span>{data ? data?.name : 'city'}</span>
+      <span>{data ? data?.name : null}</span>
     </article>
   );
 };

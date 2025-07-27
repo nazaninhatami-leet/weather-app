@@ -11,8 +11,6 @@ export function ExtraInfos() {
     { id: 3, label: 'Clouds', code: clouds?.all, unit: '%' },
     { id: 4, label: 'Wind Speed', code: wind?.speed, unit: 'm/s' },
     { id: 5, label: 'Pressure', code: main?.pressure, unit: 'hPa' },
-    // { id: 6, label: 'Sunrise', code: sys?.sunrise },
-    // { id: 7, label: 'Sunset', code: sys?.sunset },
     { id: 8, label: 'Ground Level', code: main?.grnd_level, unit: 'm' },
     { id: 9, label: 'Sea Level', code: main?.sea_level, unit: 'hPa' },
   ];
